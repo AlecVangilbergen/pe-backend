@@ -9,9 +9,7 @@
 
 name: Publish Docker image
 
-on:
-  push:
-    types: [master]
+on: [push]
 
 jobs:
   push_to_registry:
